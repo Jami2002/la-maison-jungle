@@ -1,0 +1,41 @@
+.cart{
+    display: block;
+    padding:32px;
+    color: white;
+    background-color:#31b572;
+    width: 20%;
+}
+.price{
+    list-style-type: none;
+}
+.categories{
+    list-style: none;
+    text-transform: capitalize;
+}
+
+.add-button {
+	margin-left: 32px;
+	cursor: pointer;
+    width: 70%;
+}
+
+.toggle-button {
+	background: none;
+	outline: none;
+	border: none;
+	font-weight: 600;
+	cursor: pointer;
+	float: right;
+	padding: 0;
+	color: white;
+    font-weight: bold;
+}
+
+.closed {
+	padding: 32px;
+	width: 200px;
+}
+
+.closed > button {
+	color: black;
+}

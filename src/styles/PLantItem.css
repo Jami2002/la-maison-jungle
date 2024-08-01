@@ -1,0 +1,29 @@
+.plant-item-cover{
+   margin: 2px;
+   height: 220px;
+   width: 220px;
+   border-radius: 20px;
+   
+}
+.plant-item{
+    overflow: hidden;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    text-transform: capitalize;
+    margin: 10px;
+}
+.name{
+    display: flex;
+
+}
+.sales {
+	position: absolute;
+	right: 0px;
+	top: 10px;
+	font-weight: 500;
+	color: white;
+	padding: 5px 10px;
+	background-color: #31b572;
+}
